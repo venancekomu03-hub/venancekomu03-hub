@@ -18,7 +18,7 @@ I study electrical engineering and mathematics at Alfred University, with a mino
     <td width="50%" valign="top">
       <h3>Critical Materials Circuit Component Detector</h3>
       <sub>PERSONAL PROJECT · SUMMER 2026</sub>
-      <p>Computer vision for critical materials. YOLOv8 object detection finds integrated circuits, capacitors, connectors and other components in images of circuit boards, then reference data turns those detections into an estimate of which critical materials the board may contain, and roughly how much.</p>
+      <p>Computer vision for critical materials. I trained a YOLOv8 model in PyTorch to detect five component classes (ICs, capacitors, resistors, transistors and connectors) on about 500 circuit-board images with 2,000+ labeled instances, split 70/15/15. A critical-materials reference database then turns the detections into an estimate of each board's material content in mg or g, with the assumptions stated.</p>
       <p><sub>Python · PyTorch · YOLOv8 · OpenCV · NumPy/pandas · Linux</sub></p>
     </td>
   </tr>
