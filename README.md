@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" width="100%" alt="Venance Komu. Electrical engineering, mathematics and computer science at Alfred University, class of 2029. Open to internships and research.">
 </p>
 
-I study electrical engineering and mathematics at Alfred University, with a minor in computer science, and expect to graduate in May 2029. Most of my work so far has been with data: modeling how much gallium could be recovered from secondary sources for the U.S. supply chain, cleaning up property and tenant records in Tanzania, and comparing battery storage for an off-grid tiny house.
+I study electrical engineering and mathematics at Alfred University, with a minor in computer science, and expect to graduate in May 2029. Most of my work so far has been with data: modeling how much gallium could be recovered from secondary sources for the U.S. supply chain, cleaning up property and tenant records in Tanzania, and comparing battery storage for an off-grid tiny house. This summer I also built a computer-vision tool that finds the components on a circuit board and estimates the critical materials inside them.
 
 **I'm looking for internships and undergraduate research positions.**
 
@@ -11,6 +11,17 @@ I study electrical engineering and mathematics at Alfred University, with a mino
 ## Work
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/pcb.svg" width="100%" alt="Illustrative circuit board whose ICs, capacitors and connector are boxed as detected components">
+    </td>
+    <td width="50%" valign="top">
+      <h3>Critical Materials Circuit Component Detector</h3>
+      <sub>PERSONAL PROJECT · SUMMER 2026</sub>
+      <p>Computer vision for critical materials. YOLOv8 object detection finds integrated circuits, capacitors, connectors and other components in images of circuit boards, then reference data turns those detections into an estimate of which critical materials the board may contain, and roughly how much.</p>
+      <p><sub>Python · PyTorch · YOLOv8 · OpenCV · NumPy/pandas · Linux</sub></p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/xrf.svg" width="100%" alt="Illustrative X-ray fluorescence spectrum with the gallium K-alpha and K-beta peaks">
