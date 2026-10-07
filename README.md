@@ -102,7 +102,7 @@ I study electrical engineering and mathematics at Alfred University, with a mino
 
 **Alfred University** · Alfred, NY · *Expected May 2029*<br>
 B.S. Electrical Engineering and Mathematics, double major · Computer Science minor<br>
-Dean's List 2025 and 2026 · SAT Math 790/800
+GPA 4.00/4.00 · Dean's List 2025 and 2026 · SAT Math 790/800
 
 <sub>**Coursework** · Circuit Theory · Digital Logic · Computer Organization & Architecture · Data Structures & Algorithms · Object-Oriented Programming · Software Development Lifecycle · System Design · Discrete Mathematics · Linear Algebra · Multivariable Calculus · Differential Equations · Probability & Statistics</sub>
 
