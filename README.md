@@ -30,6 +30,24 @@ I study electrical engineering and mathematics at Alfred University, with a mino
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/tcms.svg" width="100%" alt="Illustrative admin dashboard with a role-locked tariffs view">
+      <h3>TCMS Utility Billing Portal</h3>
+      <sub>TEAM PROJECT · SEP – NOV 2023</sub>
+      <p>A utility-billing admin portal in Laravel (PHP), co-developed with a teammate. It calls a backend API to manage utility providers, tariffs, customers, meters and debt assignment, with input validation and error logging. Each action is guarded by role-based access control (Spatie permissions), and admins and providers get their own dashboards.</p>
+      <p><sub>Laravel · PHP · REST APIs · Spatie Permission</sub></p>
+      <a href="https://github.com/Daniel-Mathew-46/TCMSCLIENT">Team repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/promptapp.svg" width="100%" alt="Illustrative REST routes (GET, POST, PATCH, DELETE) feeding a MongoDB database">
+      <h3>PromptApp</h3>
+      <sub>TEAM PROJECT · AUG 2024</sub>
+      <p>A full-stack prompt-sharing app in Next.js, co-developed with a teammate. Google sign-in through NextAuth creates a MongoDB user on first login, and REST API routes over Mongoose schemas handle creating, editing and deleting prompts, reusing one cached database connection across serverless routes.</p>
+      <p><sub>Next.js · React · MongoDB/Mongoose · NextAuth · Tailwind CSS</sub></p>
+      <a href="https://github.com/Daniel-Mathew-46/PromptApp">Team repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <img src="assets/xrf.svg" width="100%" alt="Illustrative X-ray fluorescence spectrum with the gallium K-alpha and K-beta peaks">
       <h3>Gallium Recovery Study</h3>
       <sub>RESEARCH · INAMORI SCHOOL OF ENGINEERING · MAY – JUL 2026</sub>
@@ -112,11 +130,11 @@ GPA 4.00/4.00 · Dean's List 2025 and 2026 · SAT Math 790/800
   <img src="https://skillicons.dev/icons?i=py,c,cpp,java,matlab,pytorch,tensorflow,sklearn,opencv,linux,git,github,js,react,postgres,figma&perline=16" alt="Python, C, C++, Java, MATLAB, PyTorch, TensorFlow, scikit-learn, OpenCV, Linux, Git, GitHub, JavaScript, React, PostgreSQL, Figma">
 </p>
 
-**Languages** · Python, C, C++, Java, MATLAB, VHDL, SQL, JavaScript, HTML/CSS<br>
+**Languages** · Python, C, C++, Java, PHP, MATLAB, VHDL, SQL, JavaScript, HTML/CSS<br>
 **ML & data** · PyTorch, YOLOv8 (Ultralytics), OpenCV, TensorFlow/Keras, scikit-learn, NumPy, pandas, Matplotlib<br>
 **Engineering & design** · LTspice, SolidWorks, Figma<br>
 **Methods** · Material Flow Analysis, Monte Carlo simulation, descriptive statistics, forecasting<br>
-**Web** · React, AngularJS, Bootstrap, FastAPI, Chart.js, REST APIs<br>
+**Web** · React, Next.js, Laravel, NextAuth, AngularJS, Bootstrap, FastAPI, Chart.js, REST APIs<br>
 **Data stores & cloud** · PostgreSQL, MongoDB, Azure<br>
 **Tools & OS** · Git, GitHub, Linux (Ubuntu), macOS, Windows, Visual Studio, GitHub Copilot CLI, Claude Code, Excel, Word, PowerPoint
 
