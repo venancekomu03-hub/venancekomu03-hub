@@ -9,7 +9,7 @@
   <a href="mailto:vck1@alfred.edu"><img src="https://img.shields.io/badge/Email-vck1%40alfred.edu-6c3bff?style=flat-square&labelColor=0d0d0f" alt="Email vck1@alfred.edu"></a>
 </p>
 
-I study electrical engineering and mathematics at Alfred University, with a minor in computer science, and expect to graduate in May 2029. Most of my work sits where hardware meets data. This summer I modeled how much gallium, a critical semiconductor material, could be recovered from secondary sources for the U.S. supply chain, and trained a computer-vision model that finds the components on a circuit board and estimates the critical materials inside them. Before Alfred, I cleaned up property and tenant records for the National Housing Corporation in Tanzania.
+I study electrical engineering and mathematics at Alfred University, with a minor in computer science, and expect to graduate in May 2029. Most of my work sits where hardware meets data. This summer I modeled how much gallium, a critical semiconductor material, could be recovered from secondary sources for the U.S. supply chain. Before Alfred, I cleaned up property and tenant records for the National Housing Corporation in Tanzania.
 
 **Now:** evaluating battery storage for an off-grid tiny house, and treasurer of ColorStack and the Robotics Club at Alfred.<br>
 **Looking for:** internships and undergraduate research positions.
@@ -19,26 +19,33 @@ I study electrical engineering and mathematics at Alfred University, with a mino
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/pcb.svg" width="100%" alt="Illustrative circuit board whose ICs, capacitors and connector are boxed as detected components">
-    </td>
-    <td width="50%" valign="top">
-      <h3>Critical Materials Circuit Component Detector</h3>
-      <sub>PERSONAL PROJECT · SUMMER 2026</sub>
-      <p>Computer vision for critical materials. I trained a YOLOv8 model in PyTorch to detect five component classes (ICs, capacitors, resistors, transistors and connectors) on about 500 circuit-board images with 2,000+ labeled instances, split 70/15/15. The detections are then matched to a critical-materials reference database to estimate each board's material content in mg or g, with the assumptions behind each estimate stated.</p>
-      <p><sub>Python · PyTorch · YOLOv8 · OpenCV · NumPy/pandas · Linux</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <img src="assets/tcms.svg" width="100%" alt="Illustrative admin dashboard with a role-locked tariffs view">
+    </td>
+    <td width="50%" valign="top">
       <h3>TCMS Utility Billing Portal</h3>
       <sub>TEAM PROJECT · SEP – NOV 2023</sub>
       <p>A utility-billing admin portal in Laravel (PHP), co-developed with a teammate. It calls a backend API to manage utility providers, tariffs, customers, meters and debt assignment, with input validation and error logging. Each action is guarded by role-based access control (Spatie permissions), and admins and providers get their own dashboards.</p>
       <p><sub>Laravel · PHP · REST APIs · Spatie Permission</sub></p>
       <a href="https://github.com/Daniel-Mathew-46/TCMSCLIENT">Team repository →</a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Personal Portfolio Website</h3>
+      <sub>WEB · JUN 2026 – NOW</sub>
+      <p>My portfolio, written in plain HTML, CSS and JavaScript with no framework or build step. Signal lines drawn on a canvas bend around the cursor, each project gets generated SVG artwork, and every animation turns off for visitors who prefer reduced motion. Hosted on GitHub Pages.</p>
+      <p><sub>HTML · CSS · JavaScript · Canvas · SVG</sub></p>
+      <a href="https://venancekomu03-hub.github.io">Visit →</a> · <a href="https://github.com/venancekomu03-hub/venancekomu03-hub.github.io">Source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://venancekomu03-hub.github.io"><img src="assets/website.jpg" width="100%" alt="Hero of venancekomu03-hub.github.io: the name VENANCE KOMU over violet signal lines"></a>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <img src="assets/promptapp.svg" width="100%" alt="Illustrative REST routes (GET, POST, PATCH, DELETE) feeding a MongoDB database">
+    </td>
+    <td width="50%" valign="top">
       <h3>PromptApp</h3>
       <sub>TEAM PROJECT · AUG 2024</sub>
       <p>A full-stack prompt-sharing app in Next.js, co-developed with a teammate. Google sign-in through NextAuth creates a MongoDB user on first login, and REST API routes over Mongoose schemas handle creating, editing and deleting prompts, reusing one cached database connection across serverless routes.</p>
@@ -56,22 +63,6 @@ I study electrical engineering and mathematics at Alfred University, with a mino
       <a href="https://github.com/venancekomu03-hub/Gallium_Secondary_Sources_Analysis">Repository →</a>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/route.svg" width="100%" alt="Delivery route connecting eleven stops, with pulsing geofences">
-      <h3>Food Cargo Tracking System</h3>
-      <sub>WFP TANZANIA · AUG 2024 – JAN 2025</sub>
-      <p>Prototype of a collaborative tracking platform for food cargo across 10+ delivery points in Tanzania, supporting UN SDG 2 (Zero Hunger). A real-time dashboard with geofencing, GPS tracking and AI-powered metrics, projected to cut communication inefficiencies and emergency calls by 80%.</p>
-      <p><sub>Human-centered design · Figma</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/battery.svg" width="100%" alt="House outline with four battery cells charging">
-      <h3>Tiny House Project</h3>
-      <sub>ENGINEERING · SEP 2025 – NOW</sub>
-      <p>Evaluating and optimizing battery energy-storage configurations for an off-grid tiny house, comparing capacity, efficiency, load requirements and cost estimates to support reliable power delivery.</p>
-      <p><sub>Python · Excel</sub></p>
-    </td>
-    <td width="50%" valign="top">
       <img src="assets/knn.svg" width="100%" alt="Scatter plot of two classes with a query point linked to its three nearest neighbors">
       <h3>Machine Learning with Python</h3>
       <sub>FREECODECAMP · FALL 2026</sub>
@@ -81,14 +72,18 @@ I study electrical engineering and mathematics at Alfred University, with a mino
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>This Website</h3>
-      <sub>WEB · 2026 – NOW</sub>
-      <p>My portfolio, written in plain HTML, CSS and JavaScript with no framework or build step. Signal lines drawn on a canvas bend around the cursor, each project gets generated SVG artwork, and every animation turns off for visitors who prefer reduced motion. Hosted on GitHub Pages.</p>
-      <p><sub>HTML · CSS · JavaScript · Canvas · SVG</sub></p>
-      <a href="https://venancekomu03-hub.github.io">Visit →</a> · <a href="https://github.com/venancekomu03-hub/venancekomu03-hub.github.io">Source →</a>
+      <img src="assets/route.svg" width="100%" alt="Delivery route connecting eleven stops, with pulsing geofences">
+      <h3>Food Cargo Tracking System</h3>
+      <sub>WFP TANZANIA · AUG 2024 – JAN 2025</sub>
+      <p>Prototype of a collaborative tracking platform for food cargo across 10+ delivery points in Tanzania, supporting UN SDG 2 (Zero Hunger). A real-time dashboard with geofencing, GPS tracking and AI-powered metrics, projected to cut communication inefficiencies and emergency calls by 80%.</p>
+      <p><sub>Human-centered design · Figma</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://venancekomu03-hub.github.io"><img src="assets/website.jpg" width="100%" alt="Hero of venancekomu03-hub.github.io: the name VENANCE KOMU over violet signal lines"></a>
+      <img src="assets/battery.svg" width="100%" alt="House outline with four battery cells charging">
+      <h3>Tiny House Project</h3>
+      <sub>ENGINEERING · SEP 2025 – NOW</sub>
+      <p>Evaluating and optimizing battery energy-storage configurations for an off-grid tiny house, comparing capacity, efficiency, load requirements and cost estimates to support reliable power delivery.</p>
+      <p><sub>Python · Excel</sub></p>
     </td>
   </tr>
 </table>
