@@ -117,8 +117,8 @@ GPA 4.00/4.00 · Dean's List 2025 and 2026 · SAT Math 790/800
 **ML & data** · PyTorch, YOLOv8 (Ultralytics), OpenCV, TensorFlow/Keras, scikit-learn, NumPy, pandas, Matplotlib<br>
 **Engineering & design** · LTspice, SolidWorks, Figma<br>
 **Methods** · Material Flow Analysis, Monte Carlo simulation, descriptive statistics, forecasting<br>
-**Web** · React, Next.js, Laravel, NextAuth, AngularJS, Bootstrap, FastAPI, Chart.js, REST APIs<br>
-**Data stores & cloud** · PostgreSQL, MongoDB, Azure<br>
+**Web** · React, Laravel, AngularJS, Bootstrap, FastAPI, Chart.js, REST APIs<br>
+**Data stores & cloud** · PostgreSQL, Azure<br>
 **Tools & OS** · Git, GitHub, Linux (Ubuntu), macOS, Windows, Visual Studio, GitHub Copilot CLI, Claude Code, Excel, Word, PowerPoint
 
 <br>
