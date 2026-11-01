@@ -43,18 +43,6 @@ I study electrical engineering and mathematics at Alfred University, with a mino
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/promptapp.svg" width="100%" alt="Illustrative REST routes (GET, POST, PATCH, DELETE) feeding a MongoDB database">
-    </td>
-    <td width="50%" valign="top">
-      <h3>PromptApp</h3>
-      <sub>TEAM PROJECT · AUG 2024</sub>
-      <p>A full-stack prompt-sharing app in Next.js, co-developed with a teammate. Google sign-in through NextAuth creates a MongoDB user on first login, and REST API routes over Mongoose schemas handle creating, editing and deleting prompts, reusing one cached database connection across serverless routes.</p>
-      <p><sub>Next.js · React · MongoDB/Mongoose · NextAuth · Tailwind CSS</sub></p>
-      <a href="https://github.com/Daniel-Mathew-46/PromptApp">Team repository →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <img src="assets/xrf.svg" width="100%" alt="Illustrative X-ray fluorescence spectrum with the gallium K-alpha and K-beta peaks">
       <h3>Gallium Recovery Study</h3>
       <sub>RESEARCH · INAMORI SCHOOL OF ENGINEERING · MAY – JUL 2026</sub>
