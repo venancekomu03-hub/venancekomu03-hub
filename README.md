@@ -19,14 +19,14 @@ I study electrical engineering and mathematics at Alfred University, with a mino
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/tcms.svg" width="100%" alt="Illustrative admin dashboard with a role-locked tariffs view">
+      <img src="assets/market.svg" width="100%" alt="Illustrative order-book depth chart: bids on the left, asks on the right, and a large buy order sweeping three ask levels">
     </td>
     <td width="50%" valign="top">
-      <h3>TCMS Utility Billing Portal</h3>
-      <sub>TEAM PROJECT · SEP – NOV 2023</sub>
-      <p>A utility-billing admin portal in Laravel (PHP), co-developed with a teammate. It calls a backend API to manage utility providers, tariffs, customers, meters and debt assignment, with input validation and error logging. Each action is guarded by role-based access control (Spatie permissions), and admins and providers get their own dashboards.</p>
-      <p><sub>Laravel · PHP · REST APIs · Spatie Permission</sub></p>
-      <a href="https://github.com/Daniel-Mathew-46/TCMSCLIENT">Team repository →</a>
+      <h3>Market Liquidity Risk Engine</h3>
+      <sub>QUANT FINANCE · OCT 2026</sub>
+      <p>A limit order book in C++17 with price-time priority matching, partial fills and cancellations, run on 1,000 reproducible synthetic market events. Python then measures the bid-ask spread, market depth, order-book imbalance and execution slippage, flags unusually wide spreads, and plots everything on an investor dashboard. In one simulated run, a 20,000-share buy order filled only 80.65% at 2.86% slippage because the book did not hold enough liquidity.</p>
+      <p><sub>C++17 · STL · Python · pandas · NumPy · Matplotlib</sub></p>
+      <a href="https://github.com/venancekomu03-hub/Market-Liquidity-Risk-Engine">Repository →</a>
     </td>
   </tr>
   <tr>
@@ -72,6 +72,18 @@ I study electrical engineering and mathematics at Alfred University, with a mino
       <sub>ENGINEERING · SEP 2025 – NOW</sub>
       <p>Evaluating and optimizing battery energy-storage configurations for an off-grid tiny house, comparing capacity, efficiency, load requirements and cost estimates to support reliable power delivery.</p>
       <p><sub>Python · Excel</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/tcms.svg" width="100%" alt="Illustrative admin dashboard with a role-locked tariffs view">
+    </td>
+    <td width="50%" valign="top">
+      <h3>TCMS Utility Billing Portal</h3>
+      <sub>TEAM PROJECT · SEP – NOV 2023</sub>
+      <p>A utility-billing admin portal in Laravel (PHP), co-developed with a teammate. It calls a backend API to manage utility providers, tariffs, customers, meters and debt assignment, with input validation and error logging. Each action is guarded by role-based access control (Spatie permissions), and admins and providers get their own dashboards.</p>
+      <p><sub>Laravel · PHP · REST APIs · Spatie Permission</sub></p>
+      <a href="https://github.com/Daniel-Mathew-46/TCMSCLIENT">Team repository →</a>
     </td>
   </tr>
 </table>
