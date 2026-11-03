@@ -60,18 +60,13 @@ I study electrical engineering and mathematics at Alfred University, with a mino
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/route.svg" width="100%" alt="Delivery route connecting eleven stops, with pulsing geofences">
-      <h3>Food Cargo Tracking System</h3>
-      <sub>WFP TANZANIA · AUG 2024 – JAN 2025</sub>
-      <p>Prototype of a collaborative tracking platform for food cargo across 10+ delivery points in Tanzania, supporting UN SDG 2 (Zero Hunger). A real-time dashboard with geofencing, GPS tracking and AI-powered metrics, projected to cut communication inefficiencies and emergency calls by 80%.</p>
-      <p><sub>Human-centered design · Figma</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/battery.svg" width="100%" alt="House outline with four battery cells charging">
       <h3>Tiny House Project</h3>
       <sub>ENGINEERING · SEP 2025 – NOW</sub>
       <p>Evaluating and optimizing battery energy-storage configurations for an off-grid tiny house, comparing capacity, efficiency, load requirements and cost estimates to support reliable power delivery.</p>
       <p><sub>Python · Excel</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/battery.svg" width="100%" alt="House outline with four battery cells charging">
     </td>
   </tr>
   <tr>
